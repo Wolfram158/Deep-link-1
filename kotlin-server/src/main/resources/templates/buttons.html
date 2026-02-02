@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Buttons</title>
+</head>
+<body>
+<h1>Tasks</h1>
+
+<form th:action="@{/api/v1/task1}" method="get">
+    <input type="hidden" name="p" value="7">
+    <input type="hidden" name="q" value="19">
+    <input type="hidden" name="n" value="229">
+    <button type="submit" style="padding: 10px 20px; font-size: 16px;">
+        Task1
+    </button>
+</form>
+
+</body>
+</html>
